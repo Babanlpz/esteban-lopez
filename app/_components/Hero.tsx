@@ -1,14 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 import { ComponentPropsWithoutRef } from "react";
 import { Section } from "./Section";
 import { LinkedinIcon } from "./icons/LinkedinIcon";
+import { MaltIcon } from "./icons/MaltIcon";
 const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {
   return (
     <span
       className={cn(
-        "bg-accent/30 font-mono border hover:bg-accent/50 border-accent px-1 py-0.5 text-primary rounded-sm",
+        "bg-accent/30 font-mono border hover:bg-accent/50 transition-colors border-accent px-1 py-0.5 text-primary rounded-sm",
         className
       )}
       {...props}
@@ -29,10 +31,32 @@ export const Hero = () => {
           </h3>
           <p className="text-base">
             I love creating content on{" "}
-            <Code className="inline-flex items-center gap-1">
-              <LinkedinIcon size={16} className="inline" />
-              Linkedin
-            </Code>
+            <Link href="https://www.linkedin.com/in/estebanlopezdev/">
+              <Code className="inline-flex items-center gap-1">
+                <LinkedinIcon size={16} className="inline" />
+                Linkedin
+              </Code>
+            </Link>
+            , currently freelance and open to new opportunities, i am available
+            on{" "}
+            <Link href="https://www.linkedin.com/in/estebanlopezdev/">
+              <Code className="inline-flex items-center gap-1">
+                <MaltIcon size={16} className="inline" />
+                Malt
+              </Code>
+            </Link>
+            . Living in{" "}
+            <Link href="https://www.linkedin.com/in/estebanlopezdev/">
+              <Code className="inline-flex items-center gap-1">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg/langfr-450px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png"
+                  style={{ width: 16, height: "auto" }}
+                  alt="Drapeau de la France"
+                />
+                France
+              </Code>
+            </Link>
+            .
           </p>
         </div>
         <div className="flex-1">
