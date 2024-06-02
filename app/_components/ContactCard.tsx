@@ -15,7 +15,12 @@ export const ContactCard = (props: {
   // Vérification que l'URL est définie et valide
   const validUrl = props.url ? props.url : "#";
   return (
-    <Link href={validUrl} className={cn("w-full", props.className)}>
+    <Link
+      href={validUrl}
+      passHref
+      target="_blank"
+      className={cn("w-full", props.className)}
+    >
       <Card className="p-3 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4">
         <div className="relative w-10 h-10">
           <img
