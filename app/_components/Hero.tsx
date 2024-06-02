@@ -21,8 +21,8 @@ const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {
 export const Hero = () => {
   return (
     <>
-      <Section className="flex max-lg:flex-col items-start">
-        <div className="flex-[2]">
+      <Section className="flex max-lg:flex-col items-start gap-4 ">
+        <div className="flex-[3] w-full flex flex-col gap-2">
           <h2 className="font-caption font-bold text-5xl text-primary">
             Esteban Lopez
           </h2>
@@ -59,10 +59,10 @@ export const Hero = () => {
             .
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex-[2] max-md:m-auto ml-auto ">
           <img
             src="/esteban.png"
-            className="w-full h-auto max-w-sm"
+            className="w-full h-auto max-w-sm max-md:w-56"
             alt="Esteban's picture"
           />
         </div>
