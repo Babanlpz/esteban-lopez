@@ -31,7 +31,10 @@ export const Hero = () => {
           </h3>
           <p className="text-base">
             I love creating content on{" "}
-            <Link href="https://www.linkedin.com/in/estebanlopezdev/">
+            <Link
+              href="https://www.linkedin.com/in/estebanlopezdev/"
+              target="_blank"
+            >
               <Code className="inline-flex items-center gap-1">
                 <LinkedinIcon size={16} className="inline" />
                 Linkedin
@@ -39,14 +42,20 @@ export const Hero = () => {
             </Link>
             , currently freelance and open to new opportunities, i am available
             on{" "}
-            <Link href="https://www.linkedin.com/in/estebanlopezdev/">
+            <Link
+              href="https://www.malt.fr/profile/estebanlopez6"
+              target="_blank"
+            >
               <Code className="inline-flex items-center gap-1">
                 <MaltIcon size={16} className="inline" />
                 Malt
               </Code>
             </Link>
             . Living in{" "}
-            <Link href="https://www.linkedin.com/in/estebanlopezdev/">
+            <Link
+              href="https://www.linkedin.com/in/estebanlopezdev/"
+              target="_blank"
+            >
               <Code className="inline-flex items-center gap-1">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg/langfr-450px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png"

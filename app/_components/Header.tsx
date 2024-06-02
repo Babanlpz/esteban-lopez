@@ -16,6 +16,7 @@ export const Header = () => {
           <ul className="flex items-center gap-2">
             <Link
               href="https://github.com/Babanlpz"
+              target="_blank"
               className={cn(
                 buttonVariants({ variant: "outline" }),
                 "size-6 p-0"
@@ -25,6 +26,7 @@ export const Header = () => {
             </Link>
             <Link
               href="https://www.linkedin.com/in/estebanlopezdev/"
+              target="_blank"
               className={cn(
                 buttonVariants({ variant: "outline" }),
                 "size-6 p-0"
@@ -34,6 +36,7 @@ export const Header = () => {
             </Link>
             <Link
               href="https://www.malt.fr/profile/estebanlopez6"
+              target="_blank"
               className={cn(
                 buttonVariants({ variant: "outline" }),
                 "size-6 p-0"
