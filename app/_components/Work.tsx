@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 

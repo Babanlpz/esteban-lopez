@@ -2,10 +2,10 @@
 import { Card } from "@/components/ui/card";
 import {
   ALargeSmall,
-  Code,
+  Cake,
+  ChefHat,
+  Coffee,
   MessageCircle,
-  Rss,
-  StickyNote,
   Weight,
 } from "lucide-react";
 import { ContactCard } from "./ContactCard";
@@ -26,7 +26,7 @@ export const Status = () => {
                 Logo={project.Logo}
                 title={project.title}
                 description={project.description}
-                url="/"
+                url={project.url}
               />
             ))}
           </div>
@@ -65,22 +65,22 @@ export const Status = () => {
 
 const SIDE_PROJECTS: SideProjectProps[] = [
   {
-    Logo: Code,
-    title: "Esteban Lopez",
+    Logo: Coffee,
+    title: "Landing page - coffee",
     description: "Software developer and creator",
-    url: "/",
+    url: "https://projet-front-end-landing-page-coffee.vercel.app/",
   },
   {
-    Logo: StickyNote,
-    title: "Esteban Lopez",
+    Logo: ChefHat,
+    title: "Landing page - food",
     description: "Software developer and creator",
-    url: "/",
+    url: "https://landing-page-food-navy.vercel.app/",
   },
   {
-    Logo: Rss,
-    title: "Esteban Lopez",
+    Logo: Cake,
+    title: "Landing page - cake shop",
     description: "Software developer and creator",
-    url: "/",
+    url: "https://landing-page-cakeshop.vercel.app/",
   },
   {
     Logo: MessageCircle,
