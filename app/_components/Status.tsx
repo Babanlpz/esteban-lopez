@@ -8,17 +8,44 @@ import {
   MessageCircle,
   Weight,
 } from "lucide-react";
+import { Code } from "./Code";
 import { ContactCard } from "./ContactCard";
 import { Section } from "./Section";
 import { SideProject, SideProjectProps } from "./SideProject";
 import { Work, WorkProps } from "./Work";
+import { CssIcon } from "./icons/CssIcon";
+import { HtmlIcon } from "./icons/HtmlIcon";
+import { JavaIcon } from "./icons/JavaIcon";
+import { ReactLogo } from "./icons/ReactLogo";
+import { TailwindLogo } from "./icons/TailwindLogo";
+import { TypeIcon } from "./icons/TypeIcon";
 
 export const Status = () => {
   return (
     <Section className="flex max-lg:flex-col items-start gap-4 ">
       <div className="flex-[3] w-full">
         <Card className="w-full p-4 flex flex-col gap-2">
-          <p className="text-lg text-muted-foreground">Side, fun projects.</p>
+          <p className="text-lg text-muted-foreground">
+            Side, fun projects.
+            <Code className="mx-1">
+              <HtmlIcon size={16} className="inline" />
+            </Code>
+            <Code className="mx-1">
+              <CssIcon size={16} className="inline" />
+            </Code>
+            <Code className="mx-1">
+              <JavaIcon size={16} className="inline" />
+            </Code>
+            <Code className="mx-1">
+              <ReactLogo size={16} className="inline" />
+            </Code>
+            <Code className="mx-1">
+              <TailwindLogo size={16} className="inline" />
+            </Code>
+            <Code className="mx-1">
+              <TypeIcon size={16} className="inline" />
+            </Code>
+          </p>
           <div className="flex flex-col gap-4">
             {SIDE_PROJECTS.map((project, index) => (
               <SideProject
@@ -120,12 +147,11 @@ const WORKS: WorkProps[] = [
     url: "https://www.redbull.com/",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1590874315261-788881621f7a?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Fendi",
+    image: "https://stid.com/us/stid.svg",
+    title: "Stid",
     role: "Front-end developer",
-    date: "2023- Present",
-    url: "https://www.fendi.com/",
+    date: "2024 - Present",
+    url: "https://stid.com/us/",
     freelance: true,
   },
 ];
