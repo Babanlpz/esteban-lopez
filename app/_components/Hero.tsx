@@ -70,7 +70,7 @@ export const Hero = () => {
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto ">
           <img
-            src="/esteban.png"
+            src="./esteban.png"
             className="w-full h-auto max-w-sm max-md:w-56"
             alt="Esteban's picture"
           />
