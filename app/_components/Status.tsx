@@ -5,7 +5,7 @@ import {
   Cake,
   ChefHat,
   Coffee,
-  MessageCircle,
+  Notebook,
   Weight,
 } from "lucide-react";
 import { Code } from "./Code";
@@ -14,6 +14,7 @@ import { Section } from "./Section";
 import { SideProject, SideProjectProps } from "./SideProject";
 import { Work, WorkProps } from "./Work";
 import { CssIcon } from "./icons/CssIcon";
+import { FirebaseIcon } from "./icons/FirebaseIcon";
 import { HtmlIcon } from "./icons/HtmlIcon";
 import { JavaIcon } from "./icons/JavaIcon";
 import { ReactLogo } from "./icons/ReactLogo";
@@ -44,6 +45,9 @@ export const Status = () => {
             </Code>
             <Code className="mx-1">
               <TypeIcon size={16} className="inline" />
+            </Code>{" "}
+            <Code className="mx-1">
+              <FirebaseIcon size={16} className="inline" />
             </Code>
           </p>
           <div className="flex flex-col gap-4">
@@ -110,10 +114,10 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     url: "https://landing-page-cakeshop.vercel.app/",
   },
   {
-    Logo: MessageCircle,
-    title: "Esteban Lopez",
+    Logo: Notebook,
+    title: "System Reservation - spa / coiffeur",
     description: "Software developer and creator",
-    url: "/",
+    url: "https://projet-full-stack-systeme-reservation.vercel.app/",
   },
   {
     Logo: Weight,
