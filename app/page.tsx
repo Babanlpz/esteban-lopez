@@ -1,3 +1,4 @@
+import { CallCom } from "./_components/Callcom";
 import { Contact } from "./_components/Contact";
 import { Footer } from "./_components/Footer";
 import { Header } from "./_components/Header";
@@ -18,6 +19,8 @@ export default function Home() {
       <Services /> */}
       <Spacing size="md" />
       <Skills />
+      <Spacing size="md" />
+      <CallCom />
       <Spacing size="md" />
       <Contact />
       <Spacing size="md" />
