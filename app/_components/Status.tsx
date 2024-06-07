@@ -77,14 +77,14 @@ export const Status = () => {
           <ContactCard
             url="https://www.linkedin.com/in/estebanlopezdev/"
             name="@estebanlopezdev"
-            image="/esteban.png"
+            image="./esteban.webp"
             mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"
             description="256"
           />
           <ContactCard
             url="https://www.malt.fr/profile/estebanlopez6"
             name="@estebanlopez"
-            image="/esteban.png"
+            image="./esteban.webp"
             mediumImage="https://play-lh.googleusercontent.com/pCYfqB1v-c9Phmvjxji_v37Lf1l59fg1pIy17PztwmS2yoRvGtNAgHZlOHQf0AQo_MZv"
             description="Freelance"
           />
