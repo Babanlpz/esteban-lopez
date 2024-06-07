@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import { Card } from "@/components/ui/card";
 import {
-  ALargeSmall,
   Cake,
   ChefHat,
   Coffee,
+  KeyboardMusicIcon,
   Notebook,
-  Weight,
+  ScanFaceIcon,
 } from "lucide-react";
 import { Code } from "./Code";
 import { ContactCard } from "./ContactCard";
@@ -120,16 +120,16 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     url: "https://projet-full-stack-systeme-reservation.vercel.app/",
   },
   {
-    Logo: Weight,
-    title: "Esteban Lopez",
+    Logo: ScanFaceIcon,
+    title: "Authentication System and Registration ",
     description: "Software developer and creator",
-    url: "/",
+    url: "https://projet-full-stack-authentificationsysteme.vercel.app/",
   },
   {
-    Logo: ALargeSmall,
-    title: "Esteban Lopez",
+    Logo: KeyboardMusicIcon,
+    title: "Piano virtual",
     description: "Software developer and creator",
-    url: "/",
+    url: "https://piano-virtuel.vercel.app/",
   },
 ];
 
