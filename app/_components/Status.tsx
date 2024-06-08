@@ -128,7 +128,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   {
     Logo: KeyboardMusicIcon,
     title: "Piano virtual",
-    description: "Software developer and creator",
+    description: "Technology developer and designer",
     url: "https://piano-virtuel.vercel.app/",
   },
 ];
