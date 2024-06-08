@@ -122,7 +122,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   {
     Logo: ScanFaceIcon,
     title: "Authentication System and Registration ",
-    description: "Software developer and creator",
+    description: "Coder and innovator",
     url: "https://projet-full-stack-authentificationsysteme.vercel.app/",
   },
   {
