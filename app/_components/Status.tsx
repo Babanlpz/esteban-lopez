@@ -104,7 +104,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   {
     Logo: ChefHat,
     title: "Landing page - food",
-    description: "Software engineer and innovator",
+    description: "Application Developer and Designer",
     url: "https://landing-page-food-navy.vercel.app/",
   },
   {
