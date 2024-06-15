@@ -110,7 +110,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   {
     Logo: Cake,
     title: "Landing page - cake shop",
-    description: "Application engineer and builder",
+    description: "Tech Developer and Creator",
     url: "https://landing-page-cakeshop.vercel.app/",
   },
   {
