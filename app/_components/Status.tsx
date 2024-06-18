@@ -115,7 +115,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   },
   {
     Logo: Notebook,
-    title: "System Reservation - spa / coiffeur",
+    title: "System Reservation - Spa / Coiffeur",
     description: "Developer and creator",
     url: "https://projet-full-stack-systeme-reservation.vercel.app/",
   },
