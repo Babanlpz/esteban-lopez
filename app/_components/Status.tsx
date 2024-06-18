@@ -97,19 +97,19 @@ export const Status = () => {
 const SIDE_PROJECTS: SideProjectProps[] = [
   {
     Logo: Coffee,
-    title: "Landing page - coffee",
+    title: "Landing page - Coffee",
     description: "Application Developer and Designer",
     url: "https://projet-front-end-landing-page-coffee.vercel.app/",
   },
   {
     Logo: ChefHat,
-    title: "Landing page - food",
+    title: "Landing page - Food",
     description: "Programmer and Builder",
     url: "https://landing-page-food-navy.vercel.app/",
   },
   {
     Logo: Cake,
-    title: "Landing page - cake shop",
+    title: "Landing page - Cake shop",
     description: "Tech Developer and Creator",
     url: "https://landing-page-cakeshop.vercel.app/",
   },
