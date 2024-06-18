@@ -98,13 +98,13 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   {
     Logo: Coffee,
     title: "Landing page - coffee",
-    description: "Programmer and Builder",
+    description: "Application Developer and Designer",
     url: "https://projet-front-end-landing-page-coffee.vercel.app/",
   },
   {
     Logo: ChefHat,
     title: "Landing page - food",
-    description: "Application Developer and Designer",
+    description: "Programmer and Builder",
     url: "https://landing-page-food-navy.vercel.app/",
   },
   {
