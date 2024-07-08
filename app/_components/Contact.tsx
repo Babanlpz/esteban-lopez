@@ -16,7 +16,7 @@ export const Contact = () => {
           name="Esteban"
           image="./esteban.webp"
           mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"
-          description="256"
+          description="399"
         />
         <ContactCard
           className="flex-1"
