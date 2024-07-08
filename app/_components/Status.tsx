@@ -136,19 +136,19 @@ const SIDE_PROJECTS: SideProjectProps[] = [
 const WORKS: WorkProps[] = [
   {
     image:
-      "https://images.unsplash.com/photo-1601158935942-52255782d322?q=80&w=2691&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Tesla",
+      "https://chips-website-design.netlify.app/assets/images/home-chips.png",
+    title: "Chips",
     role: "Front-end developer",
-    date: "2021 - Present",
-    url: "https://www.tesla.com/",
+    date: "2024 - Present",
+    url: "https://chips-website-design.netlify.app/",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1617727553252-65863c156eb0?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Redbull",
+      "https://sneakers-website-design.netlify.app/assets/img/sneaker-1.png",
+    title: "Sneakers",
     role: "Front-end developer",
     date: "2023- Present",
-    url: "https://www.redbull.com/",
+    url: "https://sneakers-website-design.netlify.app/",
   },
   {
     image: "https://stid.com/us/stid.svg",
